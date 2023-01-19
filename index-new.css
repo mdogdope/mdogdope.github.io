@@ -1,0 +1,86 @@
+:root {
+	--background: #f1f1f1;
+	--primary: #9999FF;
+}
+
+html {
+	background-color: var(--background);
+}
+
+html, body, p, h1, h2, h3, h4, h5, h6 {
+	font-family: "Roboto", sans-serif
+}
+
+.border {
+	border-style: solid;
+	border-color: blue;
+	border-width: 1px;
+	margin: 1px;
+}
+
+.page-container {
+	max-width: 1400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.left-column {
+	width: 33.3333%;
+	background-color: white;
+	float: left;
+}
+
+.head-container {
+	position: relative;
+}
+
+.head-container h2 {
+	position: absolute;
+	bottom: 0px;
+	left: 20px;
+	z-index: 100;
+	padding: 8px;
+	background-color: #FFFFFFBB;
+}
+
+.head-shot {
+	width: 100%;
+}
+
+.info {
+	margin: 8px;
+}
+
+.margin-right {
+	margin-right: 8px;
+}
+
+.skills {
+	margin: 8px;
+}
+
+.skill-bar {
+	background-color: var(--background);
+	border-radius: 16px;
+}
+
+.skill-bar-fill {
+	background-color: var(--primary);
+	text-align: center;
+	border-radius: 16px;
+}
+
+.lang {
+	margin: 8px;
+}
+
+.lang .title {
+	font-size: 18px;
+}
+
+.right-column {
+	background-color: white;
+	float: right;
+	width: 66%;
+}
+
